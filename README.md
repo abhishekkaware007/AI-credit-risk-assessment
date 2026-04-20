@@ -65,19 +65,21 @@ streamlit run app.py
 
 
 CreditRiskProject/
+│
 ├── GiveMeSomeCredit/
-│   ├── app.py                 ← Streamlit dashboard
+│   ├── app.py
 │   ├── requirements.txt
 │   └── notebooks/
 │       ├── 01_EDA.ipynb
 │       ├── 02_preprocessing.ipynb
 │       ├── 03_model_training.ipynb
 │       └── 04_evaluation.ipynb
+│
 └── models/
-├── random_forest.pkl      ← Production model
-├── xgboost.pkl
-├── gradient_boosting.pkl
-└── logistic_regression.pkl
+    ├── random_forest.pkl
+    ├── xgboost.pkl
+    ├── gradient_boosting.pkl
+    └── logistic_regression.pkl
 
 ---
 
