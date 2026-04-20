@@ -63,8 +63,23 @@ streamlit run app.py
 
 ## 📁 Structure
 
-
-CreditRiskProject/ │ ├── GiveMeSomeCredit/ │ ├── app.py │ ├── requirements.txt │ └── notebooks/ │ ├── 01_EDA.ipynb │ ├── 02_preprocessing.ipynb │ ├── 03_model_training.ipynb │ └── 04_evaluation.ipynb │ └── models/ ├── random_forest.pkl ├── xgboost.pkl ├── gradient_boosting.pkl └── logistic_regression.pkl
+CreditRiskProject/
+│
+├── GiveMeSomeCredit/
+│   ├── app.py
+│   ├── requirements.txt
+│   │
+│   └── notebooks/
+│       ├── 01_EDA.ipynb
+│       ├── 02_preprocessing.ipynb
+│       ├── 03_model_training.ipynb
+│       └── 04_evaluation.ipynb
+│
+└── models/
+    ├── random_forest.pkl
+    ├── xgboost.pkl
+    ├── gradient_boosting.pkl
+    └── logistic_regression.pkl
 ---
 
 ## 📋 Dataset
