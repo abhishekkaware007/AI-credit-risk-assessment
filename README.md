@@ -69,6 +69,7 @@ CreditRiskProject/
 ├── GiveMeSomeCredit/
 │   ├── app.py
 │   ├── requirements.txt
+│   │
 │   └── notebooks/
 │       ├── 01_EDA.ipynb
 │       ├── 02_preprocessing.ipynb
@@ -80,7 +81,6 @@ CreditRiskProject/
     ├── xgboost.pkl
     ├── gradient_boosting.pkl
     └── logistic_regression.pkl
-
 ---
 
 ## 📋 Dataset
